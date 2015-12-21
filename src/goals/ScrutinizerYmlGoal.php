@@ -26,7 +26,9 @@ class ScrutinizerYmlGoal extends \hidev\goals\TemplateGoal
     {
         $this->setItems([
             'tools' => [
-                'php_code_coverage' => true,
+                'php_code_coverage' => [
+                    'enabled' => true,
+                ],
                 'external_code_coverage' => [
                     'timeout' => 600,
                 ],

@@ -15,8 +15,8 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'goals' => [
-            'scrutinizer'       => 'hidev\scrutinizer\goals\TravisGoal',
-            '.scrutinizer.yml'  => 'hidev\scrutinizer\goals\TravisYmlGoal',
+            'scrutinizer'       => 'hidev\scrutinizer\goals\ScrutinizerGoal',
+            '.scrutinizer.yml'  => 'hidev\scrutinizer\goals\ScrutinizerYmlGoal',
         ],
     ];
 }
