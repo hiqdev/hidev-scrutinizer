@@ -8,6 +8,7 @@ HiDev Scrutinizer
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-scrutinizer.svg)](https://travis-ci.org/hiqdev/hidev-scrutinizer)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+
 This plugin enables [Scrutinizer](https://scrutinizer-ci.org/) support for HiDev.
 
 ## Installation
