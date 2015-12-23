@@ -6,6 +6,8 @@ HiDev Scrutinizer
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-scrutinizer/v/stable)](https://packagist.org/packages/hiqdev/hidev-scrutinizer)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-scrutinizer/downloads)](https://packagist.org/packages/hiqdev/hidev-scrutinizer)
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-scrutinizer.svg)](https://travis-ci.org/hiqdev/hidev-scrutinizer)
+[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/?branch=master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
