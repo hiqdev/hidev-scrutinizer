@@ -16,23 +16,22 @@ namespace hidev\scrutinizer\goals;
  */
 class ScrutinizerGoal extends \hidev\goals\DefaultGoal
 {
-    public $installRequest = '';
-    public $scriptRequest = 'build';
-
-    public function actionInstall()
+    public function actionUploadCoverage()
     {
-        return $this->runRequest($this->installRequest);
+        return $this->runActions(['wget-ocular', 'run-ocular']);
     }
 
-    public function actionScript()
+    public function actionWgetOcular()
     {
-        return $this->runRequest($this->scriptRequest);
-    }
-
-    public function runRequest($request)
-    {
-        if ($request !== null) {
-            return $this->module->runRequest($request);
+        if (file_exists('ocular.phar')) {
+            return 0;
         }
+
+        return $this->passthru('wget', 'https://scrutinizer-ci.com/ocular.phar');
+    }
+
+    public function actionRunOcular()
+    {
+        return $this->passthru('ocular', ['code-coverage:upload', '--format=php-clover', 'coverage.clover']);
     }
 }
