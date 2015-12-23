@@ -3,7 +3,11 @@ hiqdev/hidev-scrutinizer commits history
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
 - Added `markdownBadges`
+    - dab39c8 2015-12-23 + upload coverage action (sol@hiqdev.com)
     - 28ca114 2015-12-23 + `markdownBadges` (sol@hiqdev.com)
     - fe23abf 2015-12-23 added forgotten .scrutinizer.yml (sol@hiqdev.com)
 
