@@ -51,5 +51,8 @@
         "psr-4": {
             "hidev\\scrutinizer\\": "src"
         }
+    },
+    "extra": {
+        "yii2-extraconfig": "src/yii2-extraconfig.php"
     }
 }
