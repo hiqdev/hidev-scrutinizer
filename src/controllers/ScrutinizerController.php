@@ -9,12 +9,12 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\goals;
+namespace hidev\scrutinizer\controllers;
 
 /**
  * Goal for Scrutinizer.
  */
-class ScrutinizerGoal extends \hidev\goals\DefaultGoal
+class ScrutinizerController extends \hidev\controllers\CommonController
 {
     public function actionUploadCoverage()
     {

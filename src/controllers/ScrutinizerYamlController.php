@@ -9,13 +9,13 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\goals;
+namespace hidev\scrutinizer\controllers;
 
 /**
  * Goal for .scrutinizer.yml config file.
  * For the moment PHP projects only.
  */
-class ScrutinizerYmlGoal extends \hidev\goals\TemplateGoal
+class ScrutinizerYamlController extends \hidev\controllers\FileController
 {
     protected $_file = '.scrutinizer.yml';
 

@@ -13,10 +13,10 @@ return [
     'components' => [
         'config' => [
             'scrutinizer' => [
-                'class' => 'hidev\scrutinizer\goals\ScrutinizerGoal',
+                'class' => 'hidev\scrutinizer\controllers\ScrutinizerController',
             ],
             '.scrutinizer.yml' => [
-                'class' => 'hidev\scrutinizer\goals\ScrutinizerYmlGoal',
+                'class' => 'hidev\scrutinizer\controllers\ScrutinizerYamlController',
             ],
             'readme' => [
                 'markdownBadges' => [
