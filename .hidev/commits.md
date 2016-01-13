@@ -3,6 +3,9 @@ hiqdev/hidev-scrutinizer commits history
 
 ## Under development
 
+    - ecd97b3 2016-01-13 renamed goals -> controllers (sol@hiqdev.com)
+    - c842a6d 2016-01-06 changed config structure (sol@hiqdev.com)
+    - 1459770 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
 
