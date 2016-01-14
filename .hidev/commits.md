@@ -4,6 +4,7 @@ hiqdev/hidev-scrutinizer commits history
 ## Under development
 
 - Fixed tests
+    - 9e134d4 2016-01-14 + require-dev latest composer-extension-plugin (sol@hiqdev.com)
     - 24f5d66 2016-01-14 fixing composer self-update on travis `before_install` (sol@hiqdev.com)
     - 0602a5f 2016-01-14 + travis `before_install` (sol@hiqdev.com)
     - 6b5a1f0 2016-01-14 fixing tests (sol@hiqdev.com)
