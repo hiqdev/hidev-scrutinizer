@@ -3,6 +3,8 @@ hiqdev/hidev-scrutinizer commits history
 
 ## Under development
 
+- Fixed tests
+    - 6b5a1f0 2016-01-14 fixing tests (sol@hiqdev.com)
 - Removed PHP external coverage defaults from scrutinizer YAML goal
     - becfc14 2016-01-14 updated own scrutinizer config (sol@hiqdev.com)
     - d6ead25 2016-01-14 - PHP external coverage defaults from scrutinizer YAML goal (sol@hiqdev.com)
