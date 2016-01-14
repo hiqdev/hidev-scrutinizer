@@ -3,6 +3,8 @@ hiqdev/hidev-scrutinizer changelog
 
 ## Under development
 
+- Changed: renamed goals -> controllers
+- Changed: redone with yii2-extraconfig
 
 ## 0.2.0 2015-12-23
 

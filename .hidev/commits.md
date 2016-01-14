@@ -3,7 +3,10 @@ hiqdev/hidev-scrutinizer commits history
 
 ## Under development
 
+- Changed: renamed goals -> controllers
+    - d6ead25 2016-01-14 - PHP external coverage defaults from scrutinizer YAML goal (sol@hiqdev.com)
     - ecd97b3 2016-01-13 renamed goals -> controllers (sol@hiqdev.com)
+- Changed: redone with yii2-extraconfig
     - c842a6d 2016-01-06 changed config structure (sol@hiqdev.com)
     - 1459770 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
 
