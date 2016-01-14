@@ -3,6 +3,7 @@ hiqdev/hidev-scrutinizer changelog
 
 ## Under development
 
+- Removed PHP external coverage defaults from scrutinizer YAML goal
 - Changed: renamed goals -> controllers
 - Changed: redone with yii2-extraconfig
 
