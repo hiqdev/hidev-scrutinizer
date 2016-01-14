@@ -44,8 +44,7 @@
         }
     ],
     "require-dev": {
-        "hiqdev/hidev": "*@dev",
-        "hiqdev/yii2-pluginmanager": "*"
+        "hiqdev/hidev": "*@dev"
     },
     "autoload": {
         "psr-4": {

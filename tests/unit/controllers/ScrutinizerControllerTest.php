@@ -9,14 +9,14 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\tests\unit;
+namespace hidev\scrutinizer\tests\unit\controllers;
 
-use hidev\scrutinizer\Plugin;
+use hidev\scrutinizer\controllers\ScrutinizerController;
 
 /**
- * Tests for Plugin class.
+ * Tests for ScrutinizerController.
  */
-class PluginTest extends \PHPUnit_Framework_TestCase
+class ScrutinizerControllerTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var Plugin
@@ -25,7 +25,7 @@ class PluginTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new Plugin();
+        $this->object = new ScrutinizerController('scrutinizer', null);
     }
 
     protected function tearDown()
@@ -34,6 +34,6 @@ class PluginTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertTrue(is_object($this->object));
+        $this->assertInstanceOf('hidev\base\Controller', $this->object);
     }
 }
