@@ -1,7 +1,7 @@
 hiqdev/hidev-scrutinizer commits history
 ----------------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Fixed tests
     - 9e134d4 2016-01-14 + require-dev latest composer-extension-plugin (sol@hiqdev.com)
