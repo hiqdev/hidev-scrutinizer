@@ -19,7 +19,7 @@ use hidev\scrutinizer\controllers\ScrutinizerController;
 class ScrutinizerControllerTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Plugin
+     * @var ScrutinizerController
      */
     protected $object;
 
