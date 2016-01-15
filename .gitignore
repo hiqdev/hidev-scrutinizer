@@ -25,6 +25,10 @@ composer.lock
 # phpunit generated files
 coverage.clover
 
+# PHARs
+phpunit.phar
+php-cs-fixer.phar
+
 # Codeception generated files
 tests/_support/_generated
 
