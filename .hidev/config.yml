@@ -1,11 +1,10 @@
 package:
     type:           yii2-extension
     name:           hidev-scrutinizer
-    namespace:      hidev\scrutinizer
-    headline:       HiDev Scrutinizer
     title:          Scrutinizer plugin for HiDev
+    headline:       HiDev Scrutinizer
     keywords:       scrutinizer, hidev, plugin, continuous integration
-    year:           2015
+    namespace:      hidev\scrutinizer
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
