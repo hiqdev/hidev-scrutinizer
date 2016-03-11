@@ -28,10 +28,6 @@ class ScrutinizerYamlControllerTest extends \PHPUnit_Framework_TestCase
         $this->object = new ScrutinizerYamlController('.scrutinizer.yaml', null);
     }
 
-    protected function tearDown()
-    {
-    }
-
     public function testConstructor()
     {
         $this->assertInstanceOf('hidev\base\Controller', $this->object);

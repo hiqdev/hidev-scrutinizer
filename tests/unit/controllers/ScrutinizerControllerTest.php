@@ -28,10 +28,6 @@ class ScrutinizerControllerTest extends \PHPUnit_Framework_TestCase
         $this->object = new ScrutinizerController('scrutinizer', null);
     }
 
-    protected function tearDown()
-    {
-    }
-
     public function testConstructor()
     {
         $this->assertInstanceOf('hidev\base\Controller', $this->object);
