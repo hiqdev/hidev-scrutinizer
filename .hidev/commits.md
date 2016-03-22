@@ -1,6 +1,11 @@
 hiqdev/hidev-scrutinizer commits history
 ----------------------------------------
 
+## 0.3.2 2016-03-22
+
+- Fixed badges with github `full_name`
+    - a4d455c 2016-03-22 fixed badges with github `full_name` (sol@hiqdev.com)
+
 ## 0.3.1 2016-03-11
 
 - Changed badges to Shields.io
