@@ -20,9 +20,9 @@ return [
             ],
             'readme' => [
                 'markdownBadges' => [
-                    'scrutinizer.coverage' => '[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/{{ config.github.name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.name }}/)',
-                    'scrutinizer.quality'  => '[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/{{ config.github.name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.name }}/)',
-                    'scrutinizer.build'    => '[![Scrutinizer Build Status](https://img.shields.io/scrutinizer/build/g/{{ config.github.name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.name }}/build-status/master)',
+                    'scrutinizer.coverage' => '[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/{{ config.github.full_name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.full_name }}/)',
+                    'scrutinizer.quality'  => '[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/{{ config.github.full_name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.full_name }}/)',
+                    'scrutinizer.build'    => '[![Scrutinizer Build Status](https://img.shields.io/scrutinizer/build/g/{{ config.github.full_name }}.svg)](https://scrutinizer-ci.com/g/{{ config.github.full_name }}/build-status/master)',
                 ],
             ],
         ],
