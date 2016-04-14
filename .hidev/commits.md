@@ -1,6 +1,13 @@
 hiqdev/hidev-scrutinizer commits history
 ----------------------------------------
 
+## 0.3.4 2016-04-14
+
+- Fixed build with asset-packagist
+    - 0dcf07e 2016-04-14 fixed build with asset-packagist (sol@hiqdev.com)
+- Changed to `hidev-config` <- `extension-config`
+    - 810fd29 2016-04-13 redone to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+
 ## 0.3.3 2016-03-30
 
 - Changed `extension-config` <- `yii2-extraconfig`
