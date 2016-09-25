@@ -23,7 +23,7 @@ class ScrutinizerPythonController extends \hidev\controllers\CommonController
 
     public function actionGetOcular()
     {
-        if (!$this->execCode('python',['-c', 'import scrutinizer.ocular'], true)) {
+        if (!$this->execCode('python',['-c', 'import scrutinizer.ocular'])) {
             return 0;
         }
 
