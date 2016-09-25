@@ -15,6 +15,9 @@ return [
             'scrutinizer' => [
                 'class' => 'hidev\scrutinizer\controllers\ScrutinizerController',
             ],
+            'scrutinizer-python' => [
+                'class' => 'hidev\scrutinizer\controllers\ScrutinizerPythonController',
+            ],
             '.scrutinizer.yml' => [
                 'class' => 'hidev\scrutinizer\controllers\ScrutinizerYamlController',
             ],
