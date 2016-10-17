@@ -16,12 +16,18 @@ namespace hidev\scrutinizer\controllers;
  */
 class ScrutinizerController extends \hidev\controllers\CommonController
 {
-    public function actionUploadCoverage()
+    public function getLanguage()
     {
-        return $this->runActions(['wget-ocular', 'run-ocular']);
+        return $this->takeGoal('.travis.yml')->getItem('language');
     }
 
-    public function actionWgetOcular()
+    public function actionUploadCoverage()
+    {
+        $lang = $this->getLanguage();
+        return $this->runActions(["get-ocular-$lang", "run-ocular-$lang"]);
+    }
+
+    public function actionGetOcularPhp()
     {
         if (file_exists('ocular.phar')) {
             return 0;
@@ -30,8 +36,18 @@ class ScrutinizerController extends \hidev\controllers\CommonController
         return $this->passthru('wget', 'https://scrutinizer-ci.com/ocular.phar');
     }
 
-    public function actionRunOcular()
+    public function actionRunOcularPhp()
     {
         return $this->passthru('ocular', ['code-coverage:upload', '--format=php-clover', 'coverage.clover']);
+    }
+
+    public function actionGetOcularPython()
+    {
+        return null;
+    }
+
+    public function actionRunOcularPython()
+    {
+        return $this->passthru('ocular', ['--data-file', '.coverage']);
     }
 }
