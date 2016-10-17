@@ -26,9 +26,15 @@ return [
                 ],
             ],
             'binaries' => [
-                'ocular' => [
+                'python-ocular' => [
+                    'name' => 'ocular',
                     'class' => \hidev\base\BinaryPython::class,
                     'package' => 'scrutinizer-ocular',
+                ],
+                'php-ocular' => [
+                    'name' => 'ocular',
+                    'class' => \hidev\base\BinaryPhp::class,
+                    'download' => 'https://scrutinizer-ci.com/ocular.phar',
                 ],
             ],
         ],
