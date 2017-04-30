@@ -9,16 +9,16 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\controllers;
+namespace hidev\scrutinizer\console;
 
 /**
  * Goal for Scrutinizer.
  */
-class ScrutinizerController extends \hidev\controllers\CommonController
+class ScrutinizerController extends \hidev\base\Controller
 {
     public function actionUploadCoverage()
     {
-        $lang = $this->takePackage()->getLanguage();
+        $lang = $this->take('package')->getLanguage();
 
         return $this->runActions(["upload-$lang-coverage"]);
     }

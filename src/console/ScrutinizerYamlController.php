@@ -9,12 +9,15 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\controllers;
+namespace hidev\scrutinizer\console;
 
 /**
- * Goal for .scrutinizer.yml config file.
+ * `.scrutinizer.yml` config file.
  */
-class ScrutinizerYamlController extends \hidev\controllers\FileController
+class ScrutinizerYamlController extends \hidev\base\Controller
 {
-    protected $_file = '.scrutinizer.yml';
+    public function actionIndex()
+    {
+        $this->take('.scrutinizer.yml')->actionSave();
+    }
 }
