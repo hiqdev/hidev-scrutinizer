@@ -18,6 +18,6 @@ class ScrutinizerYamlController extends \hidev\base\Controller
 {
     public function actionIndex()
     {
-        $this->take('.scrutinizer.yml')->actionSave();
+        $this->take('.scrutinizer.yml')->save();
     }
 }
