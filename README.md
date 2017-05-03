@@ -9,9 +9,16 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-scrutinizer.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-scrutinizer/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-scrutinizer/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is a task runner, code generator and build tool for easier continuos integration.
 
-This plugin enables [Scrutinizer](https://scrutinizer-ci.org/) support for HiDev.
+This plugin enables [Scrutinizer] support for HiDev:
+
+- keeping `.scrutinizer.yml` file
+- uploading test code coverage with [ocular]
+
+[hidev]:        https://github.com/hiqdev/hidev
+[Scrutinizer]:  https://scrutinizer-ci.org/
+[ocular]:       https://scrutinizer-ci.com/docs/tools/external-code-coverage/
 
 ## Installation
 
