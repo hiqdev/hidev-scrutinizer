@@ -1,80 +1,93 @@
 # hiqdev/hidev-scrutinizer
 
-## [Under development]
+## [0.6.0] - 2017-05-03
 
-    - [7bee6cb] 2017-04-30 renamed `hidev.yml` <- .hidev/config.yml [sol@hiqdev.com]
-    - [f050f11] 2017-04-30 redoing to new hidev [sol@hiqdev.com]
-    - [19ab2e4] 2016-10-17 added python coverage uploading [sol@hiqdev.com]
-    - [9cc31f7] 2016-10-17 + upload coverage for python [sol@hiqdev.com]
-    - [4a176fa] 2016-09-25 added ScrutinizerPythonController [sol@hiqdev.com]
+- Redone to new hidev
+    - [b73de0d] 2017-05-03 csfixed [@hiqsol]
+    - [6f629a2] 2017-05-03 fixed tests [@hiqsol]
+    - [f7a064b] 2017-05-01 moved ConfigFile to `hidev\base` [@hiqsol]
+    - [7bee6cb] 2017-04-30 renamed `hidev.yml` <- .hidev/config.yml [@hiqsol]
+    - [f050f11] 2017-04-30 redoing to new hidev [@hiqsol]
+- Added coverage uploading for python
+    - [19ab2e4] 2016-10-17 added python coverage uploading [@hiqsol]
+    - [9cc31f7] 2016-10-17 + upload coverage for python [@hiqsol]
+    - [4a176fa] 2016-09-25 added ScrutinizerPythonController [@hiqsol]
 
 ## [0.4.0] - 2016-05-21
 
 - Changed: redone to `composer-config-plugin`
-    - [95817a7] 2016-05-21 redoing to composer-config-plugin [sol@hiqdev.com]
-    - [73bb1e2] 2016-05-21 redoing to composer-config-plugin [sol@hiqdev.com]
+    - [95817a7] 2016-05-21 redoing to composer-config-plugin [@hiqsol]
+    - [73bb1e2] 2016-05-21 redoing to composer-config-plugin [@hiqsol]
 
 ## [0.3.5] - 2016-04-15
 
 - Fixed `hiqdev/composer-extension-plugin` version constraint
-    - [8dae557] 2016-04-15 fixed `hiqdev/composer-extension-plugin` version constraint [sol@hiqdev.com]
+    - [8dae557] 2016-04-15 fixed `hiqdev/composer-extension-plugin` version constraint [@hiqsol]
 
 ## [0.3.4] - 2016-04-14
 
 - Fixed build with asset-packagist
-    - [0dcf07e] 2016-04-14 fixed build with asset-packagist [sol@hiqdev.com]
+    - [0dcf07e] 2016-04-14 fixed build with asset-packagist [@hiqsol]
 - Changed to `hidev-config` <- `extension-config`
-    - [810fd29] 2016-04-13 redone to `hidev-config` <- `extension-config` [sol@hiqdev.com]
+    - [810fd29] 2016-04-13 redone to `hidev-config` <- `extension-config` [@hiqsol]
 
 ## [0.3.3] - 2016-03-30
 
 - Changed `extension-config` <- `yii2-extraconfig`
-    - [35f746c] 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` [sol@hiqdev.com]
+    - [35f746c] 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` [@hiqsol]
 
 ## [0.3.2] - 2016-03-22
 
 - Fixed badges with github `full_name`
-    - [a4d455c] 2016-03-22 fixed badges with github `full_name` [sol@hiqdev.com]
+    - [a4d455c] 2016-03-22 fixed badges with github `full_name` [@hiqsol]
 
 ## [0.3.1] - 2016-03-11
 
 - Changed badges to Shields.io
-    - [0dc1683] 2016-03-11 rehideved [sol@hiqdev.com]
-    - [0dd986a] 2016-03-11 changed badges to Shields.io [sol@hiqdev.com]
+    - [0dc1683] 2016-03-11 rehideved [@hiqsol]
+    - [0dd986a] 2016-03-11 changed badges to Shields.io [@hiqsol]
 
 ## [0.3.0] - 2016-01-15
 
 - Fixed tests
-    - [9e134d4] 2016-01-14 + require-dev latest composer-extension-plugin [sol@hiqdev.com]
-    - [24f5d66] 2016-01-14 fixing composer self-update on travis `before_install` [sol@hiqdev.com]
-    - [0602a5f] 2016-01-14 + travis `before_install` [sol@hiqdev.com]
-    - [6b5a1f0] 2016-01-14 fixing tests [sol@hiqdev.com]
+    - [9e134d4] 2016-01-14 + require-dev latest composer-extension-plugin [@hiqsol]
+    - [24f5d66] 2016-01-14 fixing composer self-update on travis `before_install` [@hiqsol]
+    - [0602a5f] 2016-01-14 + travis `before_install` [@hiqsol]
+    - [6b5a1f0] 2016-01-14 fixing tests [@hiqsol]
 - Removed PHP external coverage defaults from scrutinizer YAML goal
-    - [becfc14] 2016-01-14 updated own scrutinizer config [sol@hiqdev.com]
-    - [d6ead25] 2016-01-14 - PHP external coverage defaults from scrutinizer YAML goal [sol@hiqdev.com]
+    - [becfc14] 2016-01-14 updated own scrutinizer config [@hiqsol]
+    - [d6ead25] 2016-01-14 - PHP external coverage defaults from scrutinizer YAML goal [@hiqsol]
 - Changed: renamed goals -> controllers
-    - [ecd97b3] 2016-01-13 renamed goals -> controllers [sol@hiqdev.com]
+    - [ecd97b3] 2016-01-13 renamed goals -> controllers [@hiqsol]
 - Changed: redone with yii2-extraconfig
-    - [c842a6d] 2016-01-06 changed config structure [sol@hiqdev.com]
-    - [1459770] 2016-01-06 redoing with yii2-extraconfig [sol@hiqdev.com]
+    - [c842a6d] 2016-01-06 changed config structure [@hiqsol]
+    - [1459770] 2016-01-06 redoing with yii2-extraconfig [@hiqsol]
 
 ## [0.2.0] - 2015-12-23
 
 - Added `markdownBadges`
-    - [dab39c8] 2015-12-23 + upload coverage action [sol@hiqdev.com]
-    - [28ca114] 2015-12-23 + `markdownBadges` [sol@hiqdev.com]
-    - [fe23abf] 2015-12-23 added forgotten .scrutinizer.yml [sol@hiqdev.com]
+    - [dab39c8] 2015-12-23 + upload coverage action [@hiqsol]
+    - [28ca114] 2015-12-23 + `markdownBadges` [@hiqsol]
+    - [fe23abf] 2015-12-23 added forgotten .scrutinizer.yml [@hiqsol]
 
 ## [0.0.1] - 2015-12-23
 
 - Added basics
-    - [435be4f] 2015-12-23 fixed hidev requires [sol@hiqdev.com]
-    - [cbe9430] 2015-12-21 fixed to work [sol@hiqdev.com]
-    - [a80238d] 2015-12-20 inited [sol@hiqdev.com]
+    - [435be4f] 2015-12-23 fixed hidev requires [@hiqsol]
+    - [cbe9430] 2015-12-21 fixed to work [@hiqsol]
+    - [a80238d] 2015-12-20 inited [@hiqsol]
 ## Development started 2015-12-20
 
 ## [Development started] - 2015-12-20
 
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
+[@tafid]: https://github.com/tafid
+[andreyklochok@gmail.com]: https://github.com/tafid
+[@BladeRoot]: https://github.com/BladeRoot
+[bladeroot@gmail.com]: https://github.com/BladeRoot
 [95817a7]: https://github.com/hiqdev/hidev-scrutinizer/commit/95817a7
 [73bb1e2]: https://github.com/hiqdev/hidev-scrutinizer/commit/73bb1e2
 [8dae557]: https://github.com/hiqdev/hidev-scrutinizer/commit/8dae557
@@ -114,3 +127,7 @@
 [0.3.0]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.0.1...0.2.0
 [0.0.1]: https://github.com/hiqdev/hidev-scrutinizer/releases/tag/0.0.1
+[b73de0d]: https://github.com/hiqdev/hidev-scrutinizer/commit/b73de0d
+[6f629a2]: https://github.com/hiqdev/hidev-scrutinizer/commit/6f629a2
+[f7a064b]: https://github.com/hiqdev/hidev-scrutinizer/commit/f7a064b
+[0.6.0]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.4.0...0.6.0
