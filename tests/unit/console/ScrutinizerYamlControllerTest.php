@@ -1,22 +1,21 @@
 <?php
-
-/*
+/**
  * Scrutinizer plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-scrutinizer
  * @package   hidev-scrutinizer
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\scrutinizer\tests\unit\controllers;
+namespace hidev\scrutinizer\tests\unit\console;
 
-use hidev\scrutinizer\controllers\ScrutinizerYamlController;
+use hidev\scrutinizer\console\ScrutinizerYamlController;
 
 /**
  * Tests for ScrutinizerYamlController.
  */
-class ScrutinizerYamlControllerTest extends \PHPUnit_Framework_TestCase
+class ScrutinizerYamlControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ScrutinizerYamlController
@@ -30,6 +29,6 @@ class ScrutinizerYamlControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertInstanceOf('hidev\base\Controller', $this->object);
+        $this->assertInstanceOf(\hidev\base\Controller::class, $this->object);
     }
 }
