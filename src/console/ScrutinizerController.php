@@ -20,7 +20,7 @@ class ScrutinizerController extends \hidev\base\Controller
     {
         $lang = $this->take('package')->getLanguage();
 
-        return $this->runActions(["upload-$lang-coverage"]);
+        return $this->runAction("upload-$lang-coverage");
     }
 
     public function actionUploadPhpCoverage()
