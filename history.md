@@ -87,6 +87,8 @@
 
 ## [Development started] - 2015-12-20
 
+## [dev] - 2017-05-10
+
 [@hiqsol]: https://github.com/hiqsol
 [sol@hiqdev.com]: https://github.com/hiqsol
 [@SilverFire]: https://github.com/SilverFire
@@ -142,3 +144,4 @@
 [a85562d]: https://github.com/hiqdev/hidev-scrutinizer/commit/a85562d
 [0d08f68]: https://github.com/hiqdev/hidev-scrutinizer/commit/0d08f68
 [0.6.1]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.6.0...0.6.1
+[Development started]: https://github.com/hiqdev/hidev-scrutinizer/compare/dev...Development started
