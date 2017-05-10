@@ -1,5 +1,12 @@
 # hiqdev/hidev-scrutinizer
 
+## [0.6.1] - 2017-05-10
+
+- Renamed `File` <- ConfigFile
+    - [29b2204] 2017-05-10 csfixed [@hiqsol]
+    - [a85562d] 2017-05-08 renamed `File` <- ConfigFile [@hiqsol]
+    - [0d08f68] 2017-05-03 doc [@hiqsol]
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev
@@ -117,7 +124,7 @@
 [19ab2e4]: https://github.com/hiqdev/hidev-scrutinizer/commit/19ab2e4
 [9cc31f7]: https://github.com/hiqdev/hidev-scrutinizer/commit/9cc31f7
 [4a176fa]: https://github.com/hiqdev/hidev-scrutinizer/commit/4a176fa
-[Under development]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.4.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.6.0...HEAD
 [0.4.0]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.3.5...0.4.0
 [0.3.5]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.3.4...0.3.5
 [0.3.4]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.3.3...0.3.4
@@ -131,3 +138,7 @@
 [6f629a2]: https://github.com/hiqdev/hidev-scrutinizer/commit/6f629a2
 [f7a064b]: https://github.com/hiqdev/hidev-scrutinizer/commit/f7a064b
 [0.6.0]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.4.0...0.6.0
+[29b2204]: https://github.com/hiqdev/hidev-scrutinizer/commit/29b2204
+[a85562d]: https://github.com/hiqdev/hidev-scrutinizer/commit/a85562d
+[0d08f68]: https://github.com/hiqdev/hidev-scrutinizer/commit/0d08f68
+[0.6.1]: https://github.com/hiqdev/hidev-scrutinizer/compare/0.6.0...0.6.1
