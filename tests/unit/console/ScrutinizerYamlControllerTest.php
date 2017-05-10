@@ -1,6 +1,6 @@
 <?php
 /**
- * Scrutinizer plugin for HiDev
+ * Scrutinizer plugin for HiDev.
  *
  * @link      https://github.com/hiqdev/hidev-scrutinizer
  * @package   hidev-scrutinizer
