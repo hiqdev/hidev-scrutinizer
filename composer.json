@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-scrutinizer",
     "type": "yii2-extension",
-    "description": "Scrutinizer plugin for HiDev",
+    "description": "HiDev plugin for Scrutinizer CI",
     "keywords": [
         "scrutinizer",
         "hidev",

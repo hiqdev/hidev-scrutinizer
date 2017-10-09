@@ -1,6 +1,6 @@
 # HiDev Scrutinizer
 
-**Scrutinizer plugin for HiDev**
+**HiDev plugin for Scrutinizer CI**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-scrutinizer/v/stable)](https://packagist.org/packages/hiqdev/hidev-scrutinizer)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-scrutinizer/downloads)](https://packagist.org/packages/hiqdev/hidev-scrutinizer)
@@ -9,7 +9,7 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-scrutinizer.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-scrutinizer/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-scrutinizer/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-scrutinizer/dev-master)
 
-[HiDev] is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
 
 This plugin enables [Scrutinizer] support for HiDev:
 
