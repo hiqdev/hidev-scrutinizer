@@ -44,7 +44,4 @@ return [
             ],
         ],
     ],
-    'aliases' => [
-        '@hidev/scrutinizer' => dirname(__DIR__) . '/src',
-    ],
 ];
